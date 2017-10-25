@@ -1,0 +1,15 @@
+print(' Wall painting calculation ')
+print('enter width of room')
+width= float(input())
+print('enter height of room')
+height= float(input())
+print('enter cost per gallon of paint')
+gallon= float(input())
+print('enter number of coats to be applied')
+coats= float(input())
+total = ((width*height)/ float(400)) * gallon
+total_coats= total* coats
+total_gallons= int((total_coats// gallon) + 1)
+cost= float(total_gallons* gallon)
+print('It will take a at least '+ str(total_gallons)+ ' gallons of paint,')
+print(' and will cost you '+ str(cost)+ ' dollars to complete the project. ')
