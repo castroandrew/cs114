@@ -2,7 +2,7 @@ print('Ask me about your future')
 input()
 import random
 
-print(random.randint(1,15))
+# print(random.randint(1,15))
 fortune=random.randint(1,15)
 
 if fortune==1:
@@ -35,3 +35,5 @@ elif fortune== 14:
     print('Cannot predict now')
 elif fortune== 15:
     print('Concentrate and ask again')
+else:
+    print('I can not perdict a being not of this plane')
