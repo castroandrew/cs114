@@ -1,8 +1,9 @@
-print('Ask me about your future')
-input()
-import random
-
-print("I will Now look into your FUTURE!!!")
+import random 
+def start():
+    print('Ask me about your future')
+    input()
+    import random
+    print("I will Now look into your FUTURE!!!")
 
 # print(random.randint(1,15))
 def eight_ball():
@@ -16,7 +17,7 @@ def seeing():
     saw= eight_ball()
     print(saw)
 
-seeing()
+
 """
 This work like a prayer.
 """
@@ -61,7 +62,10 @@ def The_Answer():
 
 
 def main():
+    Starting= start()
+    eight_ball_text= eight_ball()
+    saw= seeing()
     output = The_Answer()
-    
+
 
 main()
