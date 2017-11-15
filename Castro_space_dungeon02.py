@@ -283,5 +283,7 @@ def fighting():
     # this is the health block
     # This is the Block for a battle
 
+fighting()
+
 print('')
 print('You did it')
