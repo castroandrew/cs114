@@ -11,12 +11,12 @@ input()
 print('')
 print("Choose your Class")
 print('')
-print("Space Duck")
+print(" Space Duck")
 print('')
-print("That One Human")
+print(" That One Human")
 print('')
-print("Sexy Alien")
-classes = input()
+print(" Sexy Alien")
+classes = str(input())
 print('')
 print("Delegate Points. You have 100 to spend. ")
 print('')
@@ -47,15 +47,15 @@ while magic== 0:
     print('')
     print(' you ran out of mp and past out.')
     print('now your life is up to faith.')
-    if health== 0
+    if health== 0:
         int(magic) +1
-    else
+    else:
         print('you wake up with scars all over and bleeding. You retreat to live another day')
     sys.exit(0)
     # what happens when you run out of mp
 move=false
 
-while move=stats
+while move==stats:
     print('')
     print('you have '+health+' hp left')
     print('and '+magic+' mp left')
@@ -73,13 +73,13 @@ while run== run:
 fight= false
 
 while fight==fight:
-    if health==0
+    if health==0:
         print('')
         print('Nooooooo')
-    elif magic==0
+    elif magic==0:
         print('')
         print('You feel sleepy')
-    elif enemies_health==0
+    elif enemies_health==0:
         print('')
         print('you did it. Now what were you in here for.')
         print('')
@@ -95,13 +95,13 @@ while fight==fight:
 print('')
 print('you have enter a dull gray room in your ship.')
 
-if class== Space Duck
+if classes==str(Space Duck):
     print('It was then your mortal enemies attack ')
     print('The Ships CAT')
-elif class== That One Human
+elif classes== That One Human:
     print('It was then your mortal enemies attack ')
     print('That Guy')
-elif class== Sexy Alien
+elif classes== Sexy Alien:
     print('It was then your mortal enemies attack ')
     print('reality')
 
