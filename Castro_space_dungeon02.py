@@ -140,7 +140,8 @@ while run== 'run':
 
 Battle= 'start'
 
-while Battle=='start:':
+def fighting():
+    while Battle=='start:':
     while fight=='fight':
         if health==0:
             print('')
@@ -280,6 +281,7 @@ while Battle=='start:':
         print('you are dead')
         sys.exit(0)
     # this is the health block
-# This is the Block for a battle
+    # This is the Block for a battle
+
 print('')
 print('You did it')
