@@ -4,7 +4,7 @@ import random
 
 # print(random.randint(1,15))
 fortune=random.randint(1,15)
-
+def eight_ball(): 
 if fortune==1:
     print('It is certain')
 elif fortune==2:

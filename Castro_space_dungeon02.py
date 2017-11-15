@@ -9,25 +9,44 @@ print("welcome to Space Dungeon")
 print("Press Enter To Continue")
 input()
 print('')
-print("Choose your Class")
-print('')
-print(" Space Duck")
-print('')
-print(" That One Human")
-print('')
-print(" Sexy Alien")
-classes = str(input())
-print('')
-print("Delegate Points. You have 100 to spend. ")
-print('')
-print("How Many points to magic")
-print('')
-magic = input()
-print('')
-print("How many points to attack")
-print('')
-attack =input()
-print('')
+
+choose_your_class= 1
+while choose_your_class== 1:
+    print("Choose your Class")
+    print('')
+    print(" Space Duck")
+    print('')
+    print(" That One Human")
+    print('')
+    print(" Sexy Alien")
+    classes = str(input())
+    if classes != 'Space Duck' or 'That One Human' or 'Sexy Alien':
+        print('please enter the class exactly')
+        print('')
+    elif:
+        print('')
+        choose_your_class= 0
+
+Delegate_Ponts=1
+while Delegate_Ponts==1
+    print("Delegate Points. You have 100 to spend. ")
+    print('')
+    print("How Many points to magic")
+    print('')
+    magic = input()
+    print('')
+    print("How many points to attack")
+    print('')
+    attack =input()
+    if int(magic)+ int(attack) != 100
+        print('I am sorry but that does not add to 100. lets try agian.)
+    elif int(magic) + int(attack) == 100
+        Delegate_Ponts=0
+    print('')
+
+
+
+
 print("What is your name")
 print('')
 name = input()
