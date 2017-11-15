@@ -142,7 +142,7 @@ Battle= 'start'
 
 def fighting():
     while Battle=='start:':
-    while fight=='fight':
+        while fight=='fight':
         if health==0:
             print('')
             print('Nooooooo')
@@ -159,7 +159,7 @@ def fighting():
             sys.exit(0)
         # Fight check
     # Fight check
-    while fight=='fight':
+        while fight=='fight':
         print(' your move. attack, magic, stats')
         move= input()
         if move== 'attack':
@@ -182,7 +182,7 @@ def fighting():
             fight= 'thier turn'
     # player fight phases block
 
-    while move=='stats':
+        while move=='stats':
         print('')
         print('you have '+health+' hp left')
         print('and '+magic+' mp left')
@@ -192,7 +192,7 @@ def fighting():
         print('')
     # this is the stats block
 
-    while fight=='fight':
+        while fight=='fight':
         if health==0:
             print('')
             print('Nooooooo')
@@ -209,7 +209,7 @@ def fighting():
             sys.exit(0)
     # Fight check
 
-    while fight=='fight':
+        while fight=='fight':
         print(' your move. attack, magic, stats')
         move= input()
         if move== 'attack':
@@ -232,12 +232,12 @@ def fighting():
             fight= 'thier turn'
     # player fight phases block
 
-    while enemies_health== 0:
+        while enemies_health== 0:
         print(' They are dead')
         Battle='over'
     # this is the enemies_health block
 
-    while magic== 0:
+        while magic== 0:
         print('')
         print(' you ran out of mp and past out.')
         print('now your life is up to faith.')
@@ -249,7 +249,7 @@ def fighting():
             sys.exit(0)
     # what happens when you run out of mp
 
-    while fight== 'thier turn':
+        while fight== 'thier turn':
         health_hit= int(health - random.randint(25,40))
         health= int(health - health_hit)
         print('you took '+ str(health_hit) +' damege')
@@ -260,7 +260,7 @@ def fighting():
             fight='fight'
     # enemies fight phases block
 
-    while fight=='fight':
+        while fight=='fight':
         if health==0:
             print('')
             print('Nooooooo')
@@ -277,7 +277,7 @@ def fighting():
             sys.exit(0)
     # Fight check
 
-    while health== 0:
+        while health== 0:
         print('you are dead')
         sys.exit(0)
     # this is the health block
