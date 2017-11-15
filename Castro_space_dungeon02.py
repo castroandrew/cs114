@@ -43,8 +43,8 @@ while Delegate_Ponts==1
     elif int(magic) + int(attack) == 100
         Delegate_Ponts=0
     print('')
-
-
+OG_magic= magic
+OG_attack= attack
 
 
 print("What is your name")
@@ -283,7 +283,14 @@ def fighting():
     # this is the health block
     # This is the Block for a battle
 
-fighting()
+def end():
+    fighting()
+    health=100
+    magic= OG_magic
+    attack= OG_attack
+
+end()
+
 
 print('')
 print('You did it')
