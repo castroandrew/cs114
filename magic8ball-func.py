@@ -1,4 +1,7 @@
 import random
+"""
+This program is used to guess the Future
+"""
 def start():
     print('Ask me about your future')
     input()
