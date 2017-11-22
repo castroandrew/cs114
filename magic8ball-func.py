@@ -1,4 +1,4 @@
-import random 
+import random
 def start():
     print('Ask me about your future')
     input()
@@ -27,38 +27,13 @@ This work like a prayer.
 
 
 def The_Answer():
-    fortune=random.randint(1,15)
-    if fortune==1:
-        fortune='It is certain'
-    elif fortune==2:
-        fortune='it is decidedly so'
-    elif fortune==3:
-        fortune='without a doubt'
-    elif fortune==4:
-        fortune='yes definitely'
-    elif fortune== 5:
-        fortune='You may rely on it'
-    elif fortune==6:
-        fortune=' Do not count on it'
-    elif fortune==7:
-        fortune=' My reply is no'
-    elif fortune== 8:
-        fortune='My sources say no'
-    elif fortune==9:
-        fortune=' Outlook not so good'
-    elif fortune== 10:
-        fortune='Very doubtful'
-    elif fortune== 11:
-        fortune='Reply hazy try again'
-    elif fortune==  12:
-        fortune='Ask again later'
-    elif fortune==13:
-        fortune='Better not tell you now'
-    elif fortune== 14:
-        fortune='Cannot predict now'
-    elif fortune== 15:
-        fortune='Concentrate and ask again'
-    print(fortune)
+    fortune=random.randint(0,14)
+    fortune_answers= ['It is certain','it is decidedly so','without a doubt',
+    'yes definitely','You may rely on it',' Do not count on it',' My reply is no','My sources say no',
+    ' Outlook not so good','Very doubtful','Reply hazy try again','Ask again later',
+    'Better not tell you now','Cannot predict now','Concentrate and ask again']
+    print(fortune_answers[fortune])
+
 
 
 def main():
