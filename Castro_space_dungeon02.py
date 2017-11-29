@@ -5,7 +5,7 @@ import battle
 print('')
 print('')
 print('')
-print("welcome to Space Dungeon")
+print("Welcome To Space Dungeon")
 print("Press Enter To Continue")
 input()
 print('')
