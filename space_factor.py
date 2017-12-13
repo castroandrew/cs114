@@ -12,7 +12,7 @@ fight_list=['you have enter a dull gray room in your ship ','Then you were attac
 'your move. attack, magic, stats ','you have attacked ','you have used magic ',
 'Now they attack ','you have ','hp left ','mp left ','you did ','you took ', 'damege. ']
 
-end_list=['Nooooooo','You feel sleepy ','You ran away like a wuss. ','you did it. Now what were you in here for.''
+end_list=['Nooooooo','You feel sleepy ','You ran away like a wuss. ','you did it. Now what were you in here for.',
 'all well, it must have not been that important. ','You left the room as a victor ',
 'They are dead','you ran out of mp and past out.','now your life is up to faith. ',
 'you wake up with scars all over and bleeding. You retreat to live another day ',
@@ -22,8 +22,8 @@ player={
 'hp': 100,
 'attack': 0,
 'magic': 0,
-'name':
-'What_are_you':
+'name':'a'
+'What_are_you':'a'
 }
 
 enemy1={
